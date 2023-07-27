@@ -1,0 +1,15 @@
+.parent{
+    height: 100%;
+    display: flex;
+    background-color: aquamarine;
+    filter: blur(1.5px);
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
