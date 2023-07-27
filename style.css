@@ -1,8 +1,9 @@
-.parent{
+.parent, .images{
     height: 100%;
     display: flex;
-    background-color: aquamarine;
+    background-color: lightpink;
     filter: blur(1.5px);
+    overflow: hidden;
 }
 
 
@@ -11,5 +12,9 @@ body, html {
     padding: 0;
     height: 100%;
     
+}
+
+.image{
+    transform: skew(-5deg);
 }
 
