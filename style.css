@@ -1,0 +1,25 @@
+body, html{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.base, .parent{
+    height: 100%;
+    background-color: bisque;
+}
+
+.top{
+    height: 96%;
+    width: 96%;
+    background-color: none;
+    top: 5px;
+    left: 10.5px;
+    display: flex; 
+    
+}
+
+.photo{
+    flex: 1;
+    border-radius: 5px;
+}
